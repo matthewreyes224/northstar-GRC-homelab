@@ -1,0 +1,7 @@
+Control ID,Control Objective,NIST CSF 2.0 Function,Primary Implementation,Implementation Status,Evidence Needed,Test Procedure,Assessment Result,Risk Link
+C-001,Maintain a controlled network boundary,Protect,FW01 / pfSense,Partially evidenced,Interface and firewall-rule evidence,Review rules and test permitted/blocked traffic,Not Tested,R-001
+C-002,Limit unnecessary network paths,Protect,pfSense segmentation,Planned,VLAN/interface/rule evidence,Verify isolation between defined segments,Not Implemented,R-002
+C-003,Maintain managed identities and access,Protect,DC01 / cyber.homelab.test,In Progress,AD users groups roles and policy evidence,Review privileged membership and test access,Not Tested,R-005
+C-004,Collect security-relevant events,Detect,Centralized logging / SIEM,Planned,Log source onboarding and event evidence,Generate test event and verify central receipt,Not Implemented,R-003
+C-005,Restore systems and information,Recover,Backup and recovery process,Planned,Backup job and restoration evidence,Perform restore test and compare to RTO/RPO,Not Implemented,R-004
+C-006,Maintain documented risk decisions,Govern,Risk register,In Progress,Risk records with ownership and treatment,Review completeness and update cadence,In Progress,
