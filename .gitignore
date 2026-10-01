@@ -1,0 +1,41 @@
+# VM disks / snapshots
+*.vhd
+*.vhdx
+*.vmdk
+*.avhd
+*.avhdx
+*.vmcx
+*.vmrs
+
+# Firewall / network backups
+config.xml
+*pfSense*.xml
+*.pcap
+*.pcapng
+
+# Secrets / keys / certificates
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.kdbx
+secrets.*
+credentials.*
+
+# Logs / dumps
+*.log
+*.dmp
+*.dump
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary artifacts
+*.tmp
+*.bak
+~$*
