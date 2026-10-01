@@ -1,0 +1,6 @@
+Evidence ID,Control Area,Artifact,Source System,Date Captured,Sanitized,Reviewer,Result,Repository Path,Notes
+E-001,Network Architecture,Hyper-V virtual switch screenshot,Hyper-V,,Yes,,,evidence/screenshots/,Capture GRC-WAN and GRC-LAN
+E-002,Firewall,Interface assignment screenshot,FW01,,Yes,,,evidence/screenshots/,Show WAN/LAN interface mapping without secrets
+E-003,Firewall,Firewall rule test results,FW01,,Yes,,,evidence/config-sanitized/,Document expected allow/deny behavior
+E-004,Identity,Domain verification,DC01,,Yes,,,evidence/screenshots/,Confirm cyber.homelab.test once validated
+E-005,DNS,DNS lookup test,DC01,,Yes,,,evidence/screenshots/,Capture forward/reverse lookup validation
