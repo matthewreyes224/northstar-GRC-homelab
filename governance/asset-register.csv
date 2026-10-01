@@ -1,0 +1,4 @@
+Asset ID,Asset Name,Type,Platform/OS,Network/Domain,Role,Criticality,Status,Owner,Notes
+A-001,Hyper-V Host,Physical Host,Windows / Hyper-V,Host system,Virtualization platform,High,Operational,Lab Owner,Hosts the Northstar virtual lab
+A-002,FW01,Virtual Appliance,pfSense,GRC-WAN / GRC-LAN,Firewall and network boundary,High,Operational,Lab Owner,Primary network security gateway
+A-003,DC01,Virtual Server,Windows Server 2025,cyber.homelab.test,Directory and infrastructure services,High,Current lab component,Lab Owner,AD DS/DNS validation evidence pending; DHCP planned
